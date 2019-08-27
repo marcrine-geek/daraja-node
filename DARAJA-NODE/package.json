@@ -1,0 +1,26 @@
+{
+  "name": "daraja-node",
+  "version": "1.0.0",
+  "description": "a simple payment system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "mpesa",
+    "safaricom",
+    "daraja-api",
+    "mpesa-api",
+    "api"
+  ],
+  "author": "KejaProject",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.10",
+    "nodemon": "^1.19.1",
+    "request": "^2.88.0"
+  }
+}
